@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+/*ヘッダーエリア*/
+h1 {
+  text-align: center;
+  margin: 50px 0;
+  color: grey;
+  font-size: 24px; // Increased font size for better visibility
+}
+/*インプットエリア*/
+input {
+  width: 500px;
+  padding: 10px;
+  display: block;
+  margin: 0 auto 50px;
+  border: 2px solid #4CAF50;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f8f8;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  &:focus {
+    background-color: #e7ffe7;
+    border-color: #66bb6a;
+    outline: none;
+  }
+
+  &:hover {
+    background-color: #e0ffe0;
+    border-color: #4CAF50;
+  }
+}
+/* テキストエリア */
+textarea {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  margin: 0 auto 50px;
+  display: block;
+  resize: none;
+border: 2px solid #4CAF50;
+background-color: #f8f8f8;
+transition: background-color 0.3s ease, border-color 0.3s ease;
+
+&:focus {
+  background-color: #e7ffe7;
+  border-color: #66bb6a;
+  outline: none;
+}
+
+&:hover {
+  background-color: #e0ffe0;
+  border-color: #4CAF50;
+}
+}
+
+/* ボタンエリア */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+  width: 200px;
+  height: 50px;
+  margin: 0 auto 50px;
+  display: block;
+  font-size: 16px;
+  /* display: inline-block; Change display to inline-block to align buttons horizontally */
+
+}
+
+/* ディスプレイアウトプットエリア */
+#output {
+  width: 500px;
+  display: block;
+  height: 500px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+overflow: auto;
+background-image: linear-gradient(to right, #66bb6a 100%, #2575fc 100%);
+color: #ffffff;
+font-family: 'Arial', sans-serif;
+text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* 左側のコメントエリア */
+.msg:nth-child(odd){
+background: linear-gradient(135deg, #6a5acd 0%, #708090 100%);
+color: #f0f8ff;
+box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+margin-right:auto ;
+padding: 10px;
+border: 1px solid gray;
+width: 200px;
+margin-top: 10px;
+border-radius: 5px;
+background: gray;
+}
+
+/* 右側のコメントエリア */
+.msg:nth-child(even){
+  background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  margin-left:auto ;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 200px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background: gray;
+  }
+
+  
+  
+
+
